@@ -1,6 +1,6 @@
 <?php
 
-namespace Cms_Framework_Seed\Team;
+namespace Cms_Framework_Seed\Team\Model;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Config;
