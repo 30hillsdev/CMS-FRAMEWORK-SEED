@@ -1,0 +1,21 @@
+{
+    "name": "cms_framework_seed/hashids",
+    "description": "Hashids bundle for Cms_Framework_Seed",
+    "keywords": ["cms_framework_seed", "hashids"],
+    "license": "MIT",
+    "homepage": "https://github.com/Litepie/Hashids",
+    "authors": [
+        {
+            "name": "30hills",
+            "email": "info@30hills.com"
+        }
+    ],
+    "require": {
+        "hashids/hashids": "~2.0"
+    },
+    "autoload": {
+        "psr-4": { 
+            "Litepie\\Hashids\\": "" 
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "name": "cms_framework_seed/team",
+    "description": "Team management package for Cms_Framework_Seed",
+    "keywords": ["cms_framework_seed", "roles"],
+    "license": "MIT",
+    "homepage": "https://github.com/Cms_Framework_Seed/Team",
+    "authors": [
+        {
+            "name": "30hills",
+            "email": "info@30hills.com"
+        }
+    ],
+    "require": {
+        "mpociot/teamwork": "~5.1"
+    },
+    "autoload": {
+        "psr-4": { 
+            "Cms_Framework_Seed\\Team\\": ""
+        }
+    }
+}

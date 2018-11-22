@@ -1,0 +1,22 @@
+{
+    "name": "cms_framework_seed/form",
+    "description": "Form bundle for Cms_Framework_Seed",
+    "keywords": ["cms_framework_seed", "form"],
+    "license": "MIT",
+    "homepage": "https://github.com/Cms_Framework_Seed/Form",
+    "authors": [
+        {
+            "name": "30hills",
+            "email": "info@30hills.com"
+        }
+    ],
+    "require": {
+        "php" : "^7.0",
+        "anahkiasen/former": "~4.1"
+    },
+    "autoload": {
+        "psr-4": { 
+            "Cms_Framework_Seed\\Form\\": ""
+        }
+    }
+}

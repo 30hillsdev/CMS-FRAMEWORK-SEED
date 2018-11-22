@@ -1,0 +1,25 @@
+{
+    "name": "cms_framework_seed/user",
+    "description": "User bundle for Cms_Framework_Seed",
+    "keywords": ["cms_framework_seed", "user"],
+    "license": "MIT",
+    "homepage": "https://github.com/Litepie/User",
+    "authors": [
+        {
+            "name": "30hills",
+            "email": "info@30hills.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "laravel/socialite": "~3.1",
+    },
+    "autoload": {
+        "classmap": [
+            "database/seeds"
+        ],
+        "psr-4": { 
+            "Litepie\\User\\": "" 
+        }
+    }
+}

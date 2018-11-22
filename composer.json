@@ -1,0 +1,71 @@
+{
+    "name": "30hills/cms_framework_seed",
+    "description": "CMS FRAMEWORK SEED",
+    "keywords": ["framework", "cms-seed"],
+    "license": "MIT",
+    "homepage": "http://30hills.com",
+    "authors": [
+        {
+            "name": "30Hills",
+            "email": "hello@30hills.com"
+        }
+    ],
+    "require": {
+        "anahkiasen/former": "~4.1",
+        "barryvdh/laravel-debugbar": "~3.2",
+        "hashids/hashids": "~3.0",
+        "intervention/imagecache": "~2.3",
+        "laravel/framework": "~5.7",
+        "laravel/socialite": "~3.1",
+        "laravel/tinker": "~1.0",
+        "league/fractal": "~0.15",
+        "mcamara/laravel-localization": "~1.3",
+        "mpociot/teamwork": "~5.1",
+        "prettus/l5-repository": "~2.6",
+        "rachidlaasri/laravel-installer": "^4.0",
+        "spatie/laravel-activitylog": "~2.8",
+        "spatie/laravel-backup": "~5.1"
+    },
+    "replace": {
+        "cms_framework_seed/activities": "self.version",
+        "cms_framework_seed/database": "self.version",
+        "cms_framework_seed/filer": "self.version",
+        "cms_framework_seed/form": "self.version",
+        "cms_framework_seed/hashids": "self.version",
+        "cms_framework_seed/install": "self.version",
+        "cms_framework_seed/menu": "self.version",
+        "cms_framework_seed/node": "self.version",
+        "cms_framework_seed/repository": "self.version",
+        "cms_framework_seed/roles": "self.version",
+        "cms_framework_seed/settings": "self.version",
+        "cms_framework_seed/team": "self.version",
+        "cms_framework_seed/theme": "self.version",
+        "cms_framework_seed/trans": "self.version",
+        "cms_framework_seed/user": "self.version"
+    },
+    "autoload": {
+        "classmap": [
+            "src/Cms_Framework_Seed/Menu/database/seeds",
+            "src/Cms_Framework_Seed/Roles/database/seeds",
+            "src/Cms_Framework_Seed/Settings/database/seeds",
+            "src/Cms_Framework_Seed/User/database/seeds"
+        ],
+        "files": [
+            "src/Cms_Framework_Seed/Foundation/helpers.php",
+            "src/Cms_Framework_Seed/Settings/helpers.php",
+            "src/Cms_Framework_Seed/Theme/helpers.php"
+        ],
+        "psr-4": {
+            "Cms_Framework_Seed\\": "src/Cms_Framework_Seed"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": [
+                "rachidlaasri/laravel-installer",
+                "intervention/imagecache",
+                "spatie/laravel-backup"
+            ]
+        }
+    }
+}

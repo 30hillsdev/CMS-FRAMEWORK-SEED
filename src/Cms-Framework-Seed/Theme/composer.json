@@ -1,0 +1,21 @@
+{
+    "name": "cms_framework_seed/theme",
+    "description": "Theme bundle for Cms_Framework_Seed",
+    "keywords": ["cms_framework_seed", "theme"],
+    "license": "MIT",
+    "homepage": "https://github.com/Cms_Framework_Seed/Theme",
+    "authors": [
+        {
+            "name": "30hills",
+            "email": "info@30hills.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0"
+    },
+    "autoload": {
+        "psr-4": { 
+            "Cms_Framework_Seed\\Theme\\": ""
+        }
+    }
+}
