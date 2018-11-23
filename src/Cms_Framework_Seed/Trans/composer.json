@@ -3,7 +3,7 @@
     "description": "Trans bundle for Cms_Framework_Seed",
     "keywords": ["cms_framework_seed", "trans"],
     "license": "MIT",
-    "homepage": "https://github.com/Litepie/Trans",
+    "homepage": "https://github.com/Cms_Framework_Seed/Trans",
     "authors": [
         {
             "name": "30hills",
@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": { 
-            "Litepie\\Trans\\": "" 
+            "Cms_Framework_Seed\\Trans\\": ""
         }
     }
 }

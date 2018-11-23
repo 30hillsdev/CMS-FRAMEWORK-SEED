@@ -1,11 +1,11 @@
 <?php
 
-namespace Litepie\Install;
+namespace Cms_Framework_Seed\Install;
 
 use Illuminate\Console\Command;
-use Litepie\Install\Installers\Installer;
-use Litepie\Install\Installers\Traits\BlockMessage;
-use Litepie\Install\Installers\Traits\SectionMessage;
+use Cms_Framework_Seed\Install\Installers\Installer;
+use Cms_Framework_Seed\Install\Installers\Traits\BlockMessage;
+use Cms_Framework_Seed\Install\Installers\Traits\SectionMessage;
 
 class InstallCommand extends Command
 {
@@ -55,13 +55,13 @@ class InstallCommand extends Command
         $this->alert('Cms_Framework_Seed Installation');
 
         $success = $this->installer->stack([
-            \Litepie\Install\Installers\Scripts\ProtectInstaller::class,
-            \Litepie\Install\Installers\Scripts\ConfigureDatabase::class,
-            \Litepie\Install\Installers\Scripts\PackgeAssets::class,
-            \Litepie\Install\Installers\Scripts\PackageMigrators::class,
-            \Litepie\Install\Installers\Scripts\PackageSeeders::class,
-            \Litepie\Install\Installers\Scripts\SetSuperuserUser::class,
-            \Litepie\Install\Installers\Scripts\SetAppKey::class,
+            \Cms_Framework_Seed\Install\Installers\Scripts\ProtectInstaller::class,
+            \Cms_Framework_Seed\Install\Installers\Scripts\ConfigureDatabase::class,
+            \Cms_Framework_Seed\Install\Installers\Scripts\PackgeAssets::class,
+            \Cms_Framework_Seed\Install\Installers\Scripts\PackageMigrators::class,
+            \Cms_Framework_Seed\Install\Installers\Scripts\PackageSeeders::class,
+            \Cms_Framework_Seed\Install\Installers\Scripts\SetSuperuserUser::class,
+            \Cms_Framework_Seed\Install\Installers\Scripts\SetAppKey::class,
         ])->install($this);
 
         if ($success) {

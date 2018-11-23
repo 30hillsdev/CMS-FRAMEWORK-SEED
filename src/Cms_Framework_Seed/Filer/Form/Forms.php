@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Filer\Form;
+namespace Cms_Framework_Seed\Filer\Form;
 
 class Forms
 {

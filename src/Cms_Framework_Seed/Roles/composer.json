@@ -17,7 +17,7 @@
             "database/seeds"
         ],
         "psr-4": {
-            "Litepie\\Roles\\": "src"
+            "Cms_Framework_Seed\\Roles\\": "src"
         }
     },
     "minimum-stability": "dev"

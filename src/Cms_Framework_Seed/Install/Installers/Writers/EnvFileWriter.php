@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Install\Installers\Writers;
+namespace Cms_Framework_Seed\Install\Installers\Writers;
 
 use Illuminate\Filesystem\Filesystem;
 

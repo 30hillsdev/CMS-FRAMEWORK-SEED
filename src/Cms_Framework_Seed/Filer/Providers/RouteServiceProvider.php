@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Filer\Providers;
+namespace Cms_Framework_Seed\Filer\Providers;
 
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
 use Route;

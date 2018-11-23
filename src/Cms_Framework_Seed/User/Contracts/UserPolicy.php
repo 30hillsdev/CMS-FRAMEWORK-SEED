@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\User\Contracts;
+namespace Cms_Framework_Seed\User\Contracts;
 
 /**
  * User policy interface.

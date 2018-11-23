@@ -1,12 +1,12 @@
 <?php
 
-namespace Litepie\Roles\Repositories\Presenter;
+namespace Cms_Framework_Seed\Roles\Repositories\Presenter;
 
 use League\Fractal\TransformerAbstract;
 
 class RoleListTransformer extends TransformerAbstract
 {
-    public function transform(\Litepie\Roles\Models\Role $role)
+    public function transform(\Cms_Framework_Seed\Roles\Models\Role $role)
     {
         return [
             'id'                => $role->getRouteKey(),

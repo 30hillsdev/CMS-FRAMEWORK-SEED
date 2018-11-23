@@ -1,11 +1,11 @@
 <?php
 
-namespace Litepie\Install\Installers\Scripts;
+namespace Cms_Framework_Seed\Install\Installers\Scripts;
 
 use Exception;
 use Illuminate\Console\Command;
-use Litepie\Install\Installers\SetupScript;
-use Litepie\Install\Installers\Writers\EnvFileWriter;
+use Cms_Framework_Seed\Install\Installers\SetupScript;
+use Cms_Framework_Seed\Install\Installers\Writers\EnvFileWriter;
 
 class ConfigureDatabase implements SetupScript
 {

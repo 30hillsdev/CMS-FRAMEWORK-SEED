@@ -1,12 +1,12 @@
 <?php
 
-namespace Litepie\Menu\Repositories\Presenter;
+namespace Cms_Framework_Seed\Menu\Repositories\Presenter;
 
 use League\Fractal\TransformerAbstract;
 
 class MenuItemTransformer extends TransformerAbstract
 {
-    public function transform(\Litepie\Menu\Models\Menu $menu)
+    public function transform(\Cms_Framework_Seed\Menu\Models\Menu $menu)
     {
         return [
             'id'                => $menu->getRouteKey(),

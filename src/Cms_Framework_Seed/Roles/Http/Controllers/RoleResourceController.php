@@ -1,12 +1,12 @@
 <?php
 
-namespace Litepie\Roles\Http\Controllers;
+namespace Cms_Framework_Seed\Roles\Http\Controllers;
 
 use App\Http\Controllers\ResourceController as BaseController;
-use Litepie\Roles\Http\Requests\RoleRequest;
-use Litepie\Roles\Interfaces\PermissionRepositoryInterface;
-use Litepie\Roles\Interfaces\RoleRepositoryInterface;
-use Litepie\Roles\Models\Role;
+use Cms_Framework_Seed\Roles\Http\Requests\RoleRequest;
+use Cms_Framework_Seed\Roles\Interfaces\PermissionRepositoryInterface;
+use Cms_Framework_Seed\Roles\Interfaces\RoleRepositoryInterface;
+use Cms_Framework_Seed\Roles\Models\Role;
 
 /**
  * Resource controller class for role.
@@ -28,8 +28,8 @@ class RoleResourceController extends BaseController
         $this->repository = $role;
         $this->permission = $permission;
         $this->repository
-            ->pushCriteria(\Litepie\Repository\Criteria\RequestCriteria::class)
-            ->pushCriteria(\Litepie\Roles\Repositories\Criteria\RoleResourceCriteria::class);
+            ->pushCriteria(\Cms_Framework_Seed\Repository\Criteria\RequestCriteria::class)
+            ->pushCriteria(\Cms_Framework_Seed\Roles\Repositories\Criteria\RoleResourceCriteria::class);
     }
 
     /**
@@ -42,7 +42,7 @@ class RoleResourceController extends BaseController
         if ($this->response->typeIs('json')) {
             $pageLimit = $request->input('pageLimit');
             $data = $this->repository
-                ->setPresenter(\Litepie\Roles\Repositories\Presenter\RoleListPresenter::class)
+                ->setPresenter(\Cms_Framework_Seed\Roles\Repositories\Presenter\RoleListPresenter::class)
                 ->getDataTable($pageLimit);
 
             return $this->response

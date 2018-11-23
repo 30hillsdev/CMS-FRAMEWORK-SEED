@@ -1,10 +1,10 @@
 <?php
 
-namespace Litepie\Roles\Http\Middleware;
+namespace Cms_Framework_Seed\Roles\Http\Middleware;
 
 use Closure;
 use Illuminate\Contracts\Auth\Guard;
-use Litepie\Roles\Exceptions\RoleDeniedException;
+use Cms_Framework_Seed\Roles\Exceptions\RoleDeniedException;
 
 class VerifyRole
 {
@@ -32,7 +32,7 @@ class VerifyRole
      * @param \Closure                 $next
      * @param int|string               $role
      *
-     * @throws \Litepie\Roles\Exceptions\RoleDeniedException
+     * @throws \Cms_Framework_Seed\Roles\Exceptions\RoleDeniedException
      *
      * @return mixed
      */

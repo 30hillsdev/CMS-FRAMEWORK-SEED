@@ -1,10 +1,10 @@
 <?php
 
-namespace Litepie\Activities\Test\Models;
+namespace Cms_Framework_Seed\Activities\Test\Models;
 
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
-use Litepie\Activities\Traits\CausesActivity;
+use Cms_Framework_Seed\Activities\Traits\CausesActivity;
 
 class User extends Model implements Authenticatable
 {

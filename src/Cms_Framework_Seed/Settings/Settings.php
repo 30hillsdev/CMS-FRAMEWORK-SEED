@@ -1,8 +1,8 @@
 <?php
 
-namespace Litepie\Settings;
+namespace Cms_Framework_Seed\Settings;
 
-use Litepie\Settings\Interfaces\SettingRepositoryInterface;
+use Cms_Framework_Seed\Settings\Interfaces\SettingRepositoryInterface;
 
 class Settings
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Repository\Traits;
+namespace Cms_Framework_Seed\Repository\Traits;
 
 use Exception;
 use Illuminate\Contracts\Cache\Repository as CacheRepository;
@@ -146,11 +146,11 @@ trait CacheableRepository
     /**
      * Serialize single criterion with customized serialization of Closures.
      *
-     * @param \Litepie\Repository\Contracts\CriteriaInterface $criterion
+     * @param \Cms_Framework_Seed\Repository\Contracts\CriteriaInterface $criterion
      *
      * @throws \Exception
      *
-     * @return \Litepie\Repository\Contracts\CriteriaInterface|array
+     * @return \Cms_Framework_Seed\Repository\Contracts\CriteriaInterface|array
      */
     protected function serializeCriterion($criterion)
     {

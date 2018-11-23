@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Database\Helpers;
+namespace Cms_Framework_Seed\Database\Helpers;
 
 /**
  * Class CacheKeys.

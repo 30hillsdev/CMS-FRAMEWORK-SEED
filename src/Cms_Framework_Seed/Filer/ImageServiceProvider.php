@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Filer;
+namespace Cms_Framework_Seed\Filer;
 
 use Illuminate\Support\ServiceProvider;
 use Intervention\Image\ImageManager;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Theme;
+namespace Cms_Framework_Seed\Theme;
 
 use Closure;
 use Config;
@@ -123,11 +123,11 @@ class Theme
      * @param \Illuminate\Config\Repository                  $config
      * @param \Illuminate\Events\Dispatcher                  $events
      * @param \Illuminate\View\Factory                       $view       |
-     * @param \Litepie\Theme\asset                           $asset
+     * @param \Cms_Framework_Seed\Theme\asset                           $asset
      * @param \Illuminate\Filesystem\Filesystem              $files
-     * @param \Teepluss\Breadcrumb|\Litepie\Theme\Breadcrumb $breadcrumb
+     * @param \Teepluss\Breadcrumb|\Cms_Framework_Seed\Theme\Breadcrumb $breadcrumb
      *
-     * @return \Litepie\Theme\Theme
+     * @return \Cms_Framework_Seed\Theme\Theme
      */
     public function __construct(
         Dispatcher                             $events,
@@ -705,7 +705,7 @@ class Theme
      *
      * @throws UnknownWidgetClassException
      *
-     * @return Litepie\Theme\Widget
+     * @return Cms_Framework_Seed\Theme\Widget
      */
     public function widget($className, $attributes = [])
     {
@@ -903,7 +903,7 @@ class Theme
     /**
      * Return asset instance.
      *
-     * @return \Litepie\Theme\Asset
+     * @return \Cms_Framework_Seed\Theme\Asset
      */
     public function asset()
     {
@@ -913,7 +913,7 @@ class Theme
     /**
      * Return breadcrumb instance.
      *
-     * @return \Litepie\Theme\Breadcrumb
+     * @return \Cms_Framework_Seed\Theme\Breadcrumb
      */
     public function breadcrumb()
     {

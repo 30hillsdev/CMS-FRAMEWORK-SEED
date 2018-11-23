@@ -15,7 +15,7 @@ Here's a demo of how you can use it:
 activity()->log('Look, I logged something');
 ```
 
-You can retrieve all activity using the `Litepie\Activities\Models\Activity` model.
+You can retrieve all activity using the `Cms_Framework_Seed\Activities\Models\Activity` model.
 
 ```php
 Activity::all();
@@ -137,9 +137,9 @@ return [
      
     /**
      * The model used to log the activities. 
-     * It should be or extend the Litepie\Activities\Models\Activity model.
+     * It should be or extend the Cms_Framework_Seed\Activities\Models\Activity model.
      */
-    'activity_model' => \Litepie\Activities\Models\Activity::class,     
+    'activity_model' => \Cms_Framework_Seed\Activities\Models\Activity::class,     
 ];
 ```
 

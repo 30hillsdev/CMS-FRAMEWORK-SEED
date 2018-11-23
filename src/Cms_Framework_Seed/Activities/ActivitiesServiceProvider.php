@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Activities;
+namespace Cms_Framework_Seed\Activities;
 
 use Spatie\Activitylog\ActivitylogServiceProvider;
 use Spatie\Activitylog\CleanActivitylogCommand;

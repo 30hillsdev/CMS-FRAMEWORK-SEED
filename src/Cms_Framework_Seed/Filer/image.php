@@ -66,11 +66,11 @@ return [
      */
 
     'templates' => [
-        'xs' => 'Litepie\Filer\Templates\ExtraSmall',
-        'sm' => 'Litepie\Filer\Templates\Small',
-        'md' => 'Litepie\Filer\Templates\Medium',
-        'lg' => 'Litepie\Filer\Templates\Large',
-        'xl' => 'Litepie\Filer\Templates\ExtraLarge',
+        'xs' => 'Cms_Framework_Seed\Filer\Templates\ExtraSmall',
+        'sm' => 'Cms_Framework_Seed\Filer\Templates\Small',
+        'md' => 'Cms_Framework_Seed\Filer\Templates\Medium',
+        'lg' => 'Cms_Framework_Seed\Filer\Templates\Large',
+        'xl' => 'Cms_Framework_Seed\Filer\Templates\ExtraLarge',
     ],
 
     /*

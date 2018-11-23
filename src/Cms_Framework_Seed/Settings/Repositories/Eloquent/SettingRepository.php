@@ -1,9 +1,9 @@
 <?php
 
-namespace Litepie\Settings\Repositories\Eloquent;
+namespace Cms_Framework_Seed\Settings\Repositories\Eloquent;
 
-use Litepie\Repository\Eloquent\BaseRepository;
-use Litepie\Settings\Interfaces\SettingRepositoryInterface;
+use Cms_Framework_Seed\Repository\Eloquent\BaseRepository;
+use Cms_Framework_Seed\Settings\Interfaces\SettingRepositoryInterface;
 
 class SettingRepository extends BaseRepository implements SettingRepositoryInterface
 {

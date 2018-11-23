@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Install\Http\Controllers;
+namespace Cms_Framework_Seed\Install\Http\Controllers;
 
 use App\Http\Controllers\PublicController as PublicController;
 use Illuminate\Filesystem\Filesystem;

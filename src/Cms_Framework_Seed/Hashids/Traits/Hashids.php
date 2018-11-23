@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Hashids\Traits;
+namespace Cms_Framework_Seed\Hashids\Traits;
 
 trait Hashids
 {

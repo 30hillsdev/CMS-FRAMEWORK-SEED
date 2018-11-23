@@ -1,11 +1,11 @@
 <?php
 
-namespace Litepie\Install\Installers\Scripts;
+namespace Cms_Framework_Seed\Install\Installers\Scripts;
 
 use Exception;
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
-use Litepie\Install\Installers\SetupScript;
+use Cms_Framework_Seed\Install\Installers\SetupScript;
 
 class ProtectInstaller implements SetupScript
 {

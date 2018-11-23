@@ -1,18 +1,18 @@
 <?php
 
-namespace Litepie\User\Models;
+namespace Cms_Framework_Seed\User\Models;
 
 use Hash;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Notifications\Notifiable;
-use Litepie\Database\Traits\DateFormatter;
-use Litepie\Database\Traits\Slugger;
-use Litepie\Filer\Traits\Filer;
-use Litepie\Hashids\Traits\Hashids;
-use Litepie\Repository\Traits\PresentableTrait;
-use Litepie\Roles\Traits\HasRoleAndPermission;
-use Litepie\User\Contracts\UserPolicy;
-use Litepie\User\Traits\User as UserProfile;
+use Cms_Framework_Seed\Database\Traits\DateFormatter;
+use Cms_Framework_Seed\Database\Traits\Slugger;
+use Cms_Framework_Seed\Filer\Traits\Filer;
+use Cms_Framework_Seed\Hashids\Traits\Hashids;
+use Cms_Framework_Seed\Repository\Traits\PresentableTrait;
+use Cms_Framework_Seed\Roles\Traits\HasRoleAndPermission;
+use Cms_Framework_Seed\User\Contracts\UserPolicy;
+use Cms_Framework_Seed\User\Traits\User as UserProfile;
 
 class User extends Model implements UserPolicy
 {
@@ -45,7 +45,7 @@ class User extends Model implements UserPolicy
 
     public function messages()
     {
-        return $this->morphMany('\Litepie\Message\Models\Message', 'user');
+        return $this->morphMany('\Cms_Framework_Seed\Message\Models\Message', 'user');
     }
 
     public function setPasswordAttribute($val)

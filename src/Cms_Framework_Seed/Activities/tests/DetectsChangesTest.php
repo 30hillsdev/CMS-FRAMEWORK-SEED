@@ -1,17 +1,17 @@
 <?php
 
-namespace Litepie\Activities\Test;
+namespace Cms_Framework_Seed\Activities\Test;
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\SoftDeletes;
-use Litepie\Activities\Test\Models\Article;
-use Litepie\Activities\Test\Models\User;
-use Litepie\Activities\Traits\LogsActivity;
+use Cms_Framework_Seed\Activities\Test\Models\Article;
+use Cms_Framework_Seed\Activities\Test\Models\User;
+use Cms_Framework_Seed\Activities\Traits\LogsActivity;
 use Spatie\Activitylog\Models\Activity;
 
 class DetectsChangesTest extends TestCase
 {
-    /** @var \Litepie\Activities\Test\Article|\Litepie\Activities\Traits\LogsActivity */
+    /** @var \Cms_Framework_Seed\Activities\Test\Article|\Cms_Framework_Seed\Activities\Traits\LogsActivity */
     protected $article;
 
     public function setUp()

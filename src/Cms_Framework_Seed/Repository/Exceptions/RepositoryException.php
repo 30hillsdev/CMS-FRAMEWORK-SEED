@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Repository\Exceptions;
+namespace Cms_Framework_Seed\Repository\Exceptions;
 
 use Exception;
 

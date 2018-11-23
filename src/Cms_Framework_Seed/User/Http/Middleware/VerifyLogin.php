@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\User\Http\Middleware;
+namespace Cms_Framework_Seed\User\Http\Middleware;
 
 use Closure;
 
@@ -13,7 +13,7 @@ class VerifyLogin
      * @param \Closure                 $next
      * @param int|string               $permission
      *
-     * @throws \Litepie\User\Exceptions\PermissionDeniedException
+     * @throws \Cms_Framework_Seed\User\Exceptions\PermissionDeniedException
      *
      * @return mixed
      */

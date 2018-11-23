@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Install\Installers\Traits;
+namespace Cms_Framework_Seed\Install\Installers\Traits;
 
 trait SectionMessage
 {

@@ -1,15 +1,15 @@
 <?php
 
-namespace Litepie\Activities\Test;
+namespace Cms_Framework_Seed\Activities\Test;
 
 use Illuminate\Database\Eloquent\SoftDeletes;
-use Litepie\Activities\Models\Activity;
-use Litepie\Activities\Test\Models\Article;
-use Litepie\Activities\Traits\LogsActivity;
+use Cms_Framework_Seed\Activities\Models\Activity;
+use Cms_Framework_Seed\Activities\Test\Models\Article;
+use Cms_Framework_Seed\Activities\Traits\LogsActivity;
 
 class LogsActivityTest extends TestCase
 {
-    /** @var \Litepie\Activities\Test\Article|\Litepie\Activities\Traits\LogsActivity */
+    /** @var \Cms_Framework_Seed\Activities\Test\Article|\Cms_Framework_Seed\Activities\Traits\LogsActivity */
     protected $article;
 
     public function setUp()

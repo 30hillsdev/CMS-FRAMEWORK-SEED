@@ -1,12 +1,12 @@
 <?php
 
-namespace Litepie\User\Traits;
+namespace Cms_Framework_Seed\User\Traits;
 
 use Auth;
 use Form;
 use Hash;
 use Illuminate\Http\Request;
-use Litepie\User\Traits\Auth\Common;
+use Cms_Framework_Seed\User\Traits\Auth\Common;
 use Response;
 
 /**

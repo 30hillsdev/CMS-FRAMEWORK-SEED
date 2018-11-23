@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Repository\Listeners;
+namespace Cms_Framework_Seed\Repository\Listeners;
 
 use Illuminate\Contracts\Cache\Repository as CacheRepository;
 use Illuminate\Database\Eloquent\Model;

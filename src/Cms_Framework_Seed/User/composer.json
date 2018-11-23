@@ -3,7 +3,7 @@
     "description": "User bundle for Cms_Framework_Seed",
     "keywords": ["cms_framework_seed", "user"],
     "license": "MIT",
-    "homepage": "https://github.com/Litepie/User",
+    "homepage": "https://github.com/Cms_Framework_Seed/User",
     "authors": [
         {
             "name": "30hills",
@@ -19,7 +19,7 @@
             "database/seeds"
         ],
         "psr-4": { 
-            "Litepie\\User\\": "" 
+            "Cms_Framework_Seed\\User\\": ""
         }
     }
 }

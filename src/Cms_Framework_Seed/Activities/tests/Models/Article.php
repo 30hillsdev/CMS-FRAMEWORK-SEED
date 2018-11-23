@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Activities\Test\Models;
+namespace Cms_Framework_Seed\Activities\Test\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

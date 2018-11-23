@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Roles\Exceptions;
+namespace Cms_Framework_Seed\Roles\Exceptions;
 
 class PermissionDeniedException extends AccessDeniedException
 {

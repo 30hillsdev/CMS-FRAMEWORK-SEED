@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Settings;
+namespace Cms_Framework_Seed\Settings;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -45,18 +45,18 @@ class SettingsServiceProvider extends ServiceProvider
 
         // Bind facade
         $this->app->bind('settings', function ($app) {
-            return $this->app->make(\Litepie\Settings\Settings::class);
+            return $this->app->make(\Cms_Framework_Seed\Settings\Settings::class);
         });
 
         // Bind Setting to repository
         $this->app->bind(
-            'Litepie\Settings\Interfaces\SettingRepositoryInterface',
-            \Litepie\Settings\Repositories\Eloquent\SettingRepository::class
+            'Cms_Framework_Seed\Settings\Interfaces\SettingRepositoryInterface',
+            \Cms_Framework_Seed\Settings\Repositories\Eloquent\SettingRepository::class
         );
 
-        $this->app->register(\Litepie\Settings\Providers\AuthServiceProvider::class);
+        $this->app->register(\Cms_Framework_Seed\Settings\Providers\AuthServiceProvider::class);
 
-        $this->app->register(\Litepie\Settings\Providers\RouteServiceProvider::class);
+        $this->app->register(\Cms_Framework_Seed\Settings\Providers\RouteServiceProvider::class);
     }
 
     /**

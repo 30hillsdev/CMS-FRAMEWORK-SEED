@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Roles\Interfaces;
+namespace Cms_Framework_Seed\Roles\Interfaces;
 
 interface RoleHasRelations
 {
@@ -21,7 +21,7 @@ interface RoleHasRelations
     /**
      * Attach permission to a role.
      *
-     * @param int|\Litepie\Roles\Models\Permission $permission
+     * @param int|\Cms_Framework_Seed\Roles\Models\Permission $permission
      *
      * @return int|bool
      */
@@ -30,7 +30,7 @@ interface RoleHasRelations
     /**
      * Detach permission from a role.
      *
-     * @param int|\Litepie\Roles\Models\Permission $permission
+     * @param int|\Cms_Framework_Seed\Roles\Models\Permission $permission
      *
      * @return int
      */

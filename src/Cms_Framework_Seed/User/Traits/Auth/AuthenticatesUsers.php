@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\User\Traits\Auth;
+namespace Cms_Framework_Seed\User\Traits\Auth;
 
 use Auth;
 use Crypt;

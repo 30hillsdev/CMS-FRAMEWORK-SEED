@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Trans\Http\Middleware;
+namespace Cms_Framework_Seed\Trans\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;

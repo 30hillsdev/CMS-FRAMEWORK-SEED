@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Filer\Traits;
+namespace Cms_Framework_Seed\Filer\Traits;
 
 use Intervention\Image\Facades\Image as Intervention;
 

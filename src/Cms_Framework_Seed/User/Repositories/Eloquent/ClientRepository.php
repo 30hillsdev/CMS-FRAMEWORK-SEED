@@ -1,9 +1,9 @@
 <?php
 
-namespace Litepie\User\Repositories\Eloquent;
+namespace Cms_Framework_Seed\User\Repositories\Eloquent;
 
-use Litepie\Repository\Eloquent\BaseRepository;
-use Litepie\User\Interfaces\ClientRepositoryInterface;
+use Cms_Framework_Seed\Repository\Eloquent\BaseRepository;
+use Cms_Framework_Seed\User\Interfaces\ClientRepositoryInterface;
 
 class ClientRepository extends BaseRepository implements ClientRepositoryInterface
 {

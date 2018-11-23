@@ -1,9 +1,9 @@
 <?php
 
-namespace Litepie\Install\Installers\Scripts;
+namespace Cms_Framework_Seed\Install\Installers\Scripts;
 
 use Illuminate\Console\Command;
-use Litepie\Install\Installers\SetupScript;
+use Cms_Framework_Seed\Install\Installers\SetupScript;
 
 class PackgeAssets implements SetupScript
 {
@@ -11,15 +11,15 @@ class PackgeAssets implements SetupScript
      * @var array
      */
     protected $packages = [
-        'Block'    => \Litepie\Block\BlockServiceProvider::class,
-        'Calendar' => \Litepie\Calendar\CalendarServiceProvider::class,
-        'Contact'  => \Litepie\Contact\ContactServiceProvider::class,
-        'Menu'     => \Litepie\Menu\MenuServiceProvider::class,
-        'Message'  => \Litepie\Message\MessageServiceProvider::class,
-        'Page'     => \Litepie\Page\PageServiceProvider::class,
-        'Settings' => \Litepie\Settings\SettingsServiceProvider::class,
-        'Task'     => \Litepie\Task\TaskServiceProvider::class,
-        'User'     => \Litepie\User\UserServiceProvider::class,
+        'Block'    => \Cms_Framework_Seed\Block\BlockServiceProvider::class,
+        'Calendar' => \Cms_Framework_Seed\Calendar\CalendarServiceProvider::class,
+        'Contact'  => \Cms_Framework_Seed\Contact\ContactServiceProvider::class,
+        'Menu'     => \Cms_Framework_Seed\Menu\MenuServiceProvider::class,
+        'Message'  => \Cms_Framework_Seed\Message\MessageServiceProvider::class,
+        'Page'     => \Cms_Framework_Seed\Page\PageServiceProvider::class,
+        'Settings' => \Cms_Framework_Seed\Settings\SettingsServiceProvider::class,
+        'Task'     => \Cms_Framework_Seed\Task\TaskServiceProvider::class,
+        'User'     => \Cms_Framework_Seed\User\UserServiceProvider::class,
     ];
 
     /**

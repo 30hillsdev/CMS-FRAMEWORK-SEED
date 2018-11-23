@@ -1,9 +1,9 @@
 <?php
 
-namespace Litepie\Settings\Providers;
+namespace Cms_Framework_Seed\Settings\Providers;
 
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
-use Litepie\Settings\Models\Settings;
+use Cms_Framework_Seed\Settings\Models\Settings;
 use Request;
 use Route;
 
@@ -31,7 +31,7 @@ class RouteServiceProvider extends ServiceProvider
 
         if (Request::is('*/settings/setting/*')) {
             Route::bind('setting', function ($setting) {
-                $settingrepo = $this->app->make('Litepie\Settings\Interfaces\SettingRepositoryInterface');
+                $settingrepo = $this->app->make('Cms_Framework_Seed\Settings\Interfaces\SettingRepositoryInterface');
 
                 return $settingrepo->findorNew($setting);
             });

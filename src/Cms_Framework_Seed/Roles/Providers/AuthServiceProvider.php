@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Roles\Providers;
+namespace Cms_Framework_Seed\Roles\Providers;
 
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
 
@@ -13,9 +13,9 @@ class AuthServiceProvider extends ServiceProvider
      */
     protected $policies = [
         // Bind Role policy
-        'Litepie\Roles\Models\Role' => \Litepie\Roles\Policies\RolePolicy::class,
+        'Cms_Framework_Seed\Roles\Models\Role' => \Cms_Framework_Seed\Roles\Policies\RolePolicy::class,
 // Bind Permission policy
-        'Litepie\Roles\Models\Permission' => \Litepie\Roles\Policies\PermissionPolicy::class,
+        'Cms_Framework_Seed\Roles\Models\Permission' => \Cms_Framework_Seed\Roles\Policies\PermissionPolicy::class,
     ];
 
     /**

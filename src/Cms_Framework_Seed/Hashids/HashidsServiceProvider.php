@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Hashids;
+namespace Cms_Framework_Seed\Hashids;
 
 use Hashids\Hashids;
 use Illuminate\Support\ServiceProvider;

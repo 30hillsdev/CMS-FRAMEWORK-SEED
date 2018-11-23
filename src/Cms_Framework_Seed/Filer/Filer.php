@@ -1,10 +1,10 @@
 <?php
 
-namespace Litepie\Filer;
+namespace Cms_Framework_Seed\Filer;
 
 use App;
-use Litepie\Filer\Traits\FileDisplay;
-use Litepie\Filer\Traits\Uploader;
+use Cms_Framework_Seed\Filer\Traits\FileDisplay;
+use Cms_Framework_Seed\Filer\Traits\Uploader;
 
 class Filer
 {

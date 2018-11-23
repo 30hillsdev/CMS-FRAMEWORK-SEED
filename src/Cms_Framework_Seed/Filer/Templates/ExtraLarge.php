@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Filer\Templates;
+namespace Cms_Framework_Seed\Filer\Templates;
 
 use Intervention\Image\Filters\FilterInterface;
 use Intervention\Image\Image;

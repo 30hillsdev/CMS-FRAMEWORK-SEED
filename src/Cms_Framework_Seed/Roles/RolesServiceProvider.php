@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Roles;
+namespace Cms_Framework_Seed\Roles;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -44,23 +44,23 @@ class RolesServiceProvider extends ServiceProvider
 
         // Bind facade
         $this->app->bind('roles.roles', function ($app) {
-            return $this->app->make('Litepie\Roles\Roles');
+            return $this->app->make('Cms_Framework_Seed\Roles\Roles');
         });
 
         // Bind Role to repository
         $this->app->bind(
-            'Litepie\Roles\Interfaces\RoleRepositoryInterface',
-            \Litepie\Roles\Repositories\Eloquent\RoleRepository::class
+            'Cms_Framework_Seed\Roles\Interfaces\RoleRepositoryInterface',
+            \Cms_Framework_Seed\Roles\Repositories\Eloquent\RoleRepository::class
         );
         // Bind Permission to repository
         $this->app->bind(
-            'Litepie\Roles\Interfaces\PermissionRepositoryInterface',
-            \Litepie\Roles\Repositories\Eloquent\PermissionRepository::class
+            'Cms_Framework_Seed\Roles\Interfaces\PermissionRepositoryInterface',
+            \Cms_Framework_Seed\Roles\Repositories\Eloquent\PermissionRepository::class
         );
 
         $this->registerBladeExtensions();
-        $this->app->register(\Litepie\Roles\Providers\AuthServiceProvider::class);
-        $this->app->register(\Litepie\Roles\Providers\RouteServiceProvider::class);
+        $this->app->register(\Cms_Framework_Seed\Roles\Providers\AuthServiceProvider::class);
+        $this->app->register(\Cms_Framework_Seed\Roles\Providers\RouteServiceProvider::class);
     }
 
     /**

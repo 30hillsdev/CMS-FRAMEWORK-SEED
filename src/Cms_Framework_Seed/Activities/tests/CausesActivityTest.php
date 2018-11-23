@@ -1,8 +1,8 @@
 <?php
 
-namespace Litepie\Activities\Test;
+namespace Cms_Framework_Seed\Activities\Test;
 
-use Litepie\Activities\Test\Models\User;
+use Cms_Framework_Seed\Activities\Test\Models\User;
 
 class CausesActivityTest extends TestCase
 {

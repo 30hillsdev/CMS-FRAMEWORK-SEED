@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Repository\Providers;
+namespace Cms_Framework_Seed\Repository\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -45,7 +45,7 @@ class RepositoryServiceProvider extends ServiceProvider
         $this->commands('Cms_Framework_Seed\Repository\Generators\Commands\ControllerCommand');
         $this->commands('Cms_Framework_Seed\Repository\Generators\Commands\BindingsCommand');
         $this->commands('Cms_Framework_Seed\Repository\Generators\Commands\CriteriaCommand');
-        $this->app->register('Litepie\Repository\Providers\EventServiceProvider');
+        $this->app->register('Cms_Framework_Seed\Repository\Providers\EventServiceProvider');
     }
 
     /**

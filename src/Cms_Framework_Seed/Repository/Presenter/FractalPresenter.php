@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Repository\Presenter;
+namespace Cms_Framework_Seed\Repository\Presenter;
 
 use Exception;
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;

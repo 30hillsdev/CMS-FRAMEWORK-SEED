@@ -26,7 +26,7 @@ Once Hashids is installed you need to register the service provider with the app
 
 
 ```php
-'Litepie\Library\Hashids\HashidsServiceProvider'
+'Cms_Framework_Seed\Library\Hashids\HashidsServiceProvider'
 ```
 
 > There is no need to add the Facade, the package will add it for you.
@@ -51,7 +51,7 @@ Add verison 1.0 of Hashids in your `composer.json` file.
 "cms_framework_seed/hashids": "1.0.*"
 ~~~
 
-And following the directions in the [README](https://github.com/Litepie/laravel-hashids/tree/1.0.0) on version 1.0.
+And following the directions in the [README](https://github.com/Cms_Framework_Seed/laravel-hashids/tree/1.0.0) on version 1.0.
 
 ## Usage
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Filer;
+namespace Cms_Framework_Seed\Filer;
 
 use Closure;
 use Illuminate\Http\Response as IlluminateResponse;

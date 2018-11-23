@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Install\Installers;
+namespace Cms_Framework_Seed\Install\Installers;
 
 use Illuminate\Console\Command;
 

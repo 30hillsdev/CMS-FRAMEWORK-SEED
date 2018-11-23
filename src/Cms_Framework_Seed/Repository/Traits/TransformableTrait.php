@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Repository\Traits;
+namespace Cms_Framework_Seed\Repository\Traits;
 
 /**
  * Class TransformableTrait.

@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Roles\Traits;
+namespace Cms_Framework_Seed\Roles\Traits;
 
 use Illuminate\Database\Eloquent\Model;
 use InvalidArgumentException;
@@ -118,7 +118,7 @@ trait HasRoleAndPermission
     /**
      * Attach role to a user.
      *
-     * @param int|\Litepie\Roles\Models\Role $role
+     * @param int|\Cms_Framework_Seed\Roles\Models\Role $role
      *
      * @return null|bool
      */
@@ -130,7 +130,7 @@ trait HasRoleAndPermission
     /**
      * Detach role from a user.
      *
-     * @param int|\Litepie\Roles\Models\Role $role
+     * @param int|\Cms_Framework_Seed\Roles\Models\Role $role
      *
      * @return int
      */
@@ -330,7 +330,7 @@ trait HasRoleAndPermission
     /**
      * Attach permission to a user.
      *
-     * @param int|\Litepie\Roles\Models\Permission $permission
+     * @param int|\Cms_Framework_Seed\Roles\Models\Permission $permission
      *
      * @return null|bool
      */
@@ -342,7 +342,7 @@ trait HasRoleAndPermission
     /**
      * Detach permission from a user.
      *
-     * @param int|\Litepie\Roles\Models\Permission $permission
+     * @param int|\Cms_Framework_Seed\Roles\Models\Permission $permission
      *
      * @return int
      */

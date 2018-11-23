@@ -17,7 +17,7 @@
             "database/seeds"
         ],
         "psr-4": {
-            "Litepie\\Settings\\": ""
+            "Cms_Framework_Seed\\Settings\\": ""
         }
     },
     "minimum-stability": "dev"

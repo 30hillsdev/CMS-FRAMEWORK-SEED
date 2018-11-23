@@ -23,7 +23,7 @@ Once Theme is installed you need to register the service provider with the appli
 ~~~
 'providers' => [
 
-    'Litepie\Theme\ThemeServiceProvider',
+    'Cms_Framework_Seed\Theme\ThemeServiceProvider',
 
 ]
 ~~~
@@ -33,7 +33,7 @@ Theme also ships with a facade which provides the static syntax for creating col
 ~~~
 'aliases' => [
 
-    'Theme' => 'Litepie\Theme\Facades\Theme',
+    'Theme' => 'Cms_Framework_Seed\Theme\Facades\Theme',
 
 ]
 ~~~
@@ -41,7 +41,7 @@ Theme also ships with a facade which provides the static syntax for creating col
 Publish config using artisan CLI.
 
 ~~~
-php artisan vendor:publish --provider="Litepie\Theme\ThemeServiceProvider"
+php artisan vendor:publish --provider="Cms_Framework_Seed\Theme\ThemeServiceProvider"
 ~~~
 
 ## Usage
@@ -598,7 +598,7 @@ echo Theme::widget('demo', array('label' => 'Demo Widget'))->output();
 
 ### Using theme global
 ~~~php
-use Litepie\Theme\Contracts\Theme;
+use Cms_Framework_Seed\Theme\Contracts\Theme;
 use App\Http\Controllers\Controller;
 
 class BaseController extends Controller {
@@ -606,7 +606,7 @@ class BaseController extends Controller {
     /**
      * Theme instance.
      *
-     * @var \Litepie\Theme\Theme
+     * @var \Cms_Framework_Seed\Theme\Theme
      */
     protected $theme;
 
