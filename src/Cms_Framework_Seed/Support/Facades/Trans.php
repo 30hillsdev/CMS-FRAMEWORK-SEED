@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Support\Facades;
+namespace Cms_Framework_Seed\Support\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

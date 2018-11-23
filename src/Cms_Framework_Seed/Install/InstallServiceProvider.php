@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Install;
+namespace Cms_Framework_Seed\Install;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -32,10 +32,10 @@ class InstallServiceProvider extends ServiceProvider
     public function register()
     {
         $this->commands([
-            \Litepie\Install\InstallCommand::class,
+            \Cms_Framework_Seed\Install\InstallCommand::class,
         ]);
 
-        $this->app->register(\Litepie\Install\Providers\RouteServiceProvider::class);
+        $this->app->register(\Cms_Framework_Seed\Install\Providers\RouteServiceProvider::class);
     }
 
     /**

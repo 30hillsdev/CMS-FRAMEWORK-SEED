@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Activities\Models;
+namespace Cms_Framework_Seed\Activities\Models;
 
 use Spatie\Activitylog\Models\Activity as SpatieModel;
 

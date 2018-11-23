@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\User\Traits\Auth;
+namespace Cms_Framework_Seed\User\Traits\Auth;
 
 use Illuminate\Foundation\Auth\SendsPasswordResetEmails as IlluminateSendsPasswordResetEmails;
 use Illuminate\Http\Request;

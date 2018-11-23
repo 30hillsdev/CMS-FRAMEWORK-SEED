@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Database;
+namespace Cms_Framework_Seed\Database;
 
 use Illuminate\Support\ServiceProvider;
 

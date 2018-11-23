@@ -1,9 +1,9 @@
 <?php
 
-namespace Litepie\Roles\Repositories\Eloquent;
+namespace Cms_Framework_Seed\Roles\Repositories\Eloquent;
 
-use Litepie\Repository\Eloquent\BaseRepository;
-use Litepie\Roles\Interfaces\RoleRepositoryInterface;
+use Cms_Framework_Seed\Repository\Eloquent\BaseRepository;
+use Cms_Framework_Seed\Roles\Interfaces\RoleRepositoryInterface;
 
 class RoleRepository extends BaseRepository implements RoleRepositoryInterface
 {

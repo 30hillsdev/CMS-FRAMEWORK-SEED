@@ -1,10 +1,10 @@
 <?php
 
-namespace Litepie\Install\Installers\Scripts;
+namespace Cms_Framework_Seed\Install\Installers\Scripts;
 
 use App\User;
 use Illuminate\Console\Command;
-use Litepie\Install\Installers\SetupScript;
+use Cms_Framework_Seed\Install\Installers\SetupScript;
 use Validator;
 
 class SetSuperuserUser implements SetupScript

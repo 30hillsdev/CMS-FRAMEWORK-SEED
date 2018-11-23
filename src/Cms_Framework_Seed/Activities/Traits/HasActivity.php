@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Activities\Traits;
+namespace Cms_Framework_Seed\Activities\Traits;
 
 use Spatie\Activitylog\Traits\HasActivity as SpatieHasActivity;
 

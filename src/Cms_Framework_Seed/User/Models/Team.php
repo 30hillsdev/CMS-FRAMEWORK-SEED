@@ -1,14 +1,14 @@
 <?php
 
-namespace Litepie\User\Models;
+namespace Cms_Framework_Seed\User\Models;
 
-use Litepie\Database\Model;
-use Litepie\Database\Traits\Slugger;
-use Litepie\Filer\Traits\Filer;
-use Litepie\Hashids\Traits\Hashids;
-use Litepie\Repository\Traits\PresentableTrait;
-use Litepie\Trans\Traits\Translatable;
-use Litepie\User\Traits\Team as TeamTrait;
+use Cms_Framework_Seed\Database\Model;
+use Cms_Framework_Seed\Database\Traits\Slugger;
+use Cms_Framework_Seed\Filer\Traits\Filer;
+use Cms_Framework_Seed\Hashids\Traits\Hashids;
+use Cms_Framework_Seed\Repository\Traits\PresentableTrait;
+use Cms_Framework_Seed\Trans\Traits\Translatable;
+use Cms_Framework_Seed\User\Traits\Team as TeamTrait;
 
 // use Cms_Framework_Seed\Workflow\Model\Workflow;
 

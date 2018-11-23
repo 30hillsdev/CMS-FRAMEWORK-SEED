@@ -1,9 +1,9 @@
 <?php
 
-namespace Litepie\User\Policies;
+namespace Cms_Framework_Seed\User\Policies;
 
 use App\User;
-use Litepie\User\Models\Team;
+use Cms_Framework_Seed\User\Models\Team;
 
 class TeamPolicy
 {

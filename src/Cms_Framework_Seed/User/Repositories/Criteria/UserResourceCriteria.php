@@ -1,9 +1,9 @@
 <?php
 
-namespace Litepie\User\Repositories\Criteria;
+namespace Cms_Framework_Seed\User\Repositories\Criteria;
 
-use Litepie\Repository\Contracts\CriteriaInterface;
-use Litepie\Repository\Contracts\RepositoryInterface;
+use Cms_Framework_Seed\Repository\Contracts\CriteriaInterface;
+use Cms_Framework_Seed\Repository\Contracts\RepositoryInterface;
 
 class UserResourceCriteria implements CriteriaInterface
 {

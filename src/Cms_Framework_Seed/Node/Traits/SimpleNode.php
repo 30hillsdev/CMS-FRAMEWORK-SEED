@@ -1,9 +1,9 @@
 <?php
 
-namespace Litepie\Node\Traits;
+namespace Cms_Framework_Seed\Node\Traits;
 
 use Illuminate\Database\Eloquent\Collection;
-use Litepie\Node\NodeCollection;
+use Cms_Framework_Seed\Node\NodeCollection;
 
 /**
  * Simple Node model trait.

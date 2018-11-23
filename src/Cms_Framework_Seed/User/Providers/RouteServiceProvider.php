@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\User\Providers;
+namespace Cms_Framework_Seed\User\Providers;
 
 use App\User;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
@@ -31,7 +31,7 @@ class RouteServiceProvider extends ServiceProvider
 
         if (Request::is('admin/user/user/*')) {
             Route::bind('user', function ($user) {
-                $userrepo = $this->app->make('Litepie\User\Interfaces\UserRepositoryInterface');
+                $userrepo = $this->app->make('Cms_Framework_Seed\User\Interfaces\UserRepositoryInterface');
 
                 return $userrepo->findorNew($user);
             });
@@ -39,7 +39,7 @@ class RouteServiceProvider extends ServiceProvider
 
         if (Request::is('admin/user/team/*')) {
             Route::bind('team', function ($team) {
-                $teamrepo = $this->app->make('Litepie\User\Interfaces\TeamRepositoryInterface');
+                $teamrepo = $this->app->make('Cms_Framework_Seed\User\Interfaces\TeamRepositoryInterface');
 
                 return $teamrepo->findorNew($team);
             });
@@ -47,7 +47,7 @@ class RouteServiceProvider extends ServiceProvider
 
         if (Request::is('admin/user/*')) {
             Route::bind('client', function ($client) {
-                $userrepo = $this->app->make('Litepie\User\Interfaces\ClientRepositoryInterface');
+                $userrepo = $this->app->make('Cms_Framework_Seed\User\Interfaces\ClientRepositoryInterface');
 
                 return $userrepo->findorNew($client);
             });

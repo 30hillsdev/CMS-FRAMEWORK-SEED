@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Request;
-use Litepie\Support\Facades\Hashids;
-use Litepie\Support\Facades\Trans;
+use Cms_Framework_Seed\Support\Facades\Hashids;
+use Cms_Framework_Seed\Support\Facades\Trans;
 
 if (!function_exists('hashids_encode')) {
     /**

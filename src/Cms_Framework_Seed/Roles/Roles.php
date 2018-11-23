@@ -1,8 +1,8 @@
 <?php
 
-namespace Litepie\Roles;
+namespace Cms_Framework_Seed\Roles;
 
-use Litepie\Roles\Interfaces\RoleRepositoryInterface;
+use Cms_Framework_Seed\Roles\Interfaces\RoleRepositoryInterface;
 
 class Roles
 {

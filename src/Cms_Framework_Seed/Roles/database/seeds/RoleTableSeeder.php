@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie;
+namespace Cms_Framework_Seed;
 
 use DB;
 use Illuminate\Database\Seeder;

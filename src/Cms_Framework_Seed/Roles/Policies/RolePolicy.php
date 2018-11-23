@@ -1,9 +1,9 @@
 <?php
 
-namespace Litepie\Roles\Policies;
+namespace Cms_Framework_Seed\Roles\Policies;
 
-use Litepie\Roles\Models\Role;
-use Litepie\User\Contracts\UserPolicy;
+use Cms_Framework_Seed\Roles\Models\Role;
+use Cms_Framework_Seed\User\Contracts\UserPolicy;
 
 class RolePolicy
 {

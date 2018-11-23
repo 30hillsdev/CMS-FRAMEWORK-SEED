@@ -1,9 +1,9 @@
 <?php
 
-namespace Litepie\Roles\Repositories\Eloquent;
+namespace Cms_Framework_Seed\Roles\Repositories\Eloquent;
 
-use Litepie\Repository\Eloquent\BaseRepository;
-use Litepie\Roles\Interfaces\PermissionRepositoryInterface;
+use Cms_Framework_Seed\Repository\Eloquent\BaseRepository;
+use Cms_Framework_Seed\Roles\Interfaces\PermissionRepositoryInterface;
 
 class PermissionRepository extends BaseRepository implements PermissionRepositoryInterface
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Litepie\User\Repositories\Eloquent;
+namespace Cms_Framework_Seed\User\Repositories\Eloquent;
 
-use Litepie\Repository\Eloquent\BaseRepository;
-use Litepie\User\Interfaces\TeamRepositoryInterface;
+use Cms_Framework_Seed\Repository\Eloquent\BaseRepository;
+use Cms_Framework_Seed\User\Interfaces\TeamRepositoryInterface;
 
 class TeamRepository extends BaseRepository implements TeamRepositoryInterface
 {

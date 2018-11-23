@@ -1,10 +1,10 @@
 <?php
 
-namespace Litepie\Repository\Criteria;
+namespace Cms_Framework_Seed\Repository\Criteria;
 
 use Illuminate\Http\Request;
-use Litepie\Repository\Contracts\CriteriaInterface;
-use Litepie\Repository\Contracts\RepositoryInterface;
+use Cms_Framework_Seed\Repository\Contracts\CriteriaInterface;
+use Cms_Framework_Seed\Repository\Contracts\RepositoryInterface;
 
 /**
  * Class RequestCriteria.

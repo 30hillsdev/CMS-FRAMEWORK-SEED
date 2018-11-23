@@ -1,13 +1,13 @@
 <?php
 
-namespace Litepie\User\Http\Controllers;
+namespace Cms_Framework_Seed\User\Http\Controllers;
 
 use App\Http\Controllers\ResourceController as BaseController;
 use App\User;
-use Litepie\Roles\Interfaces\PermissionRepositoryInterface;
-use Litepie\Roles\Interfaces\RoleRepositoryInterface;
-use Litepie\User\Http\Requests\UserRequest;
-use Litepie\User\Interfaces\UserRepositoryInterface;
+use Cms_Framework_Seed\Roles\Interfaces\PermissionRepositoryInterface;
+use Cms_Framework_Seed\Roles\Interfaces\RoleRepositoryInterface;
+use Cms_Framework_Seed\User\Http\Requests\UserRequest;
+use Cms_Framework_Seed\User\Interfaces\UserRepositoryInterface;
 
 /**
  * Resource controller class for user.
@@ -41,8 +41,8 @@ class UserResourceController extends BaseController
         $this->roles = $roles;
         $this->repository = $user;
         $this->repository
-            ->pushCriteria(\Litepie\Repository\Criteria\RequestCriteria::class)
-            ->pushCriteria(\Litepie\User\Repositories\Criteria\UserResourceCriteria::class);
+            ->pushCriteria(\Cms_Framework_Seed\Repository\Criteria\RequestCriteria::class)
+            ->pushCriteria(\Cms_Framework_Seed\User\Repositories\Criteria\UserResourceCriteria::class);
     }
 
     /**
@@ -55,7 +55,7 @@ class UserResourceController extends BaseController
         if ($this->response->typeIs('json')) {
             $pageLimit = $request->input('pageLimit');
             $data = $this->repository
-                ->setPresenter(\Litepie\User\Repositories\Presenter\UserPresenter::class)
+                ->setPresenter(\Cms_Framework_Seed\User\Repositories\Presenter\UserPresenter::class)
                 ->getDataTable($pageLimit);
 
             return $this->response

@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Theme\Console;
+namespace Cms_Framework_Seed\Theme\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;

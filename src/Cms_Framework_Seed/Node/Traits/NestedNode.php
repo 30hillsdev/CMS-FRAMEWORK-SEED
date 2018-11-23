@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Node\Traits;
+namespace Cms_Framework_Seed\Node\Traits;
 
 use Exception;
 use Illuminate\Database\Eloquent\Collection;
@@ -842,7 +842,7 @@ trait NestedNode
 /*
          * Validate target
          */
-        if ($target instanceof \Litepie\Database\Model) {
+        if ($target instanceof \Cms_Framework_Seed\Database\Model) {
             $target->reload();
         } else {
             $target = $this->newQuery()->find($target);

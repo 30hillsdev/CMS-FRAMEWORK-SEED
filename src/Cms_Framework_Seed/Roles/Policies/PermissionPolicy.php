@@ -1,9 +1,9 @@
 <?php
 
-namespace Litepie\Roles\Policies;
+namespace Cms_Framework_Seed\Roles\Policies;
 
-use Litepie\Roles\Models\Permission;
-use Litepie\User\Contracts\UserPolicy;
+use Cms_Framework_Seed\Roles\Models\Permission;
+use Cms_Framework_Seed\User\Contracts\UserPolicy;
 
 class PermissionPolicy
 {

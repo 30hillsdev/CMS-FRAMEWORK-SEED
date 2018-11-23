@@ -1,12 +1,12 @@
 <?php
 
-namespace Litepie\User\Repositories\Presenter;
+namespace Cms_Framework_Seed\User\Repositories\Presenter;
 
 use League\Fractal\TransformerAbstract;
 
 class TeamTransformer extends TransformerAbstract
 {
-    public function transform(\Litepie\User\Models\Team $team)
+    public function transform(\Cms_Framework_Seed\User\Models\Team $team)
     {
         return [
             'id'                => $team->getRouteKey(),

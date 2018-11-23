@@ -1,8 +1,8 @@
 <?php
 
-namespace Litepie\User\Repositories\Presenter;
+namespace Cms_Framework_Seed\User\Repositories\Presenter;
 
-use Litepie\Repository\Presenter\FractalPresenter;
+use Cms_Framework_Seed\Repository\Presenter\FractalPresenter;
 
 class UserPresenter extends FractalPresenter
 {

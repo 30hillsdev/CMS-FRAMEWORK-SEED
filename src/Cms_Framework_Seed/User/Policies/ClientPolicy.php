@@ -1,10 +1,10 @@
 <?php
 
-namespace Litepie\User\Policies;
+namespace Cms_Framework_Seed\User\Policies;
 
 use App\User;
 use Illuminate\Auth\Access\HandlesAuthorization;
-use Litepie\User\Contracts\UserPolicy;
+use Cms_Framework_Seed\User\Contracts\UserPolicy;
 
 class ClientPolicy
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\User\Providers;
+namespace Cms_Framework_Seed\User\Providers;
 
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
 

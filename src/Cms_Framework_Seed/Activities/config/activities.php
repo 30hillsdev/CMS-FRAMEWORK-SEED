@@ -34,7 +34,7 @@ return [
      * This model will be used to log activity. The only requirement is that
      * it should be or extend the Lavalit\Activities\Models\Activity model.
      */
-    'activity_model' => \Litepie\Activities\Models\Activity::class,
+    'activity_model' => \Cms_Framework_Seed\Activities\Models\Activity::class,
 
     /*
      * This is the name of the table that will be created by the migration and

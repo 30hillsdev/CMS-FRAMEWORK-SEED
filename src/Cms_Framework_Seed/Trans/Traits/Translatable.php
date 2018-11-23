@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Trans\Traits;
+namespace Cms_Framework_Seed\Trans\Traits;
 
 use App;
 use Lang;

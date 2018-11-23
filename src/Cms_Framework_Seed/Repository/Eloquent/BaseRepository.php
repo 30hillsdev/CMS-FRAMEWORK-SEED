@@ -1,10 +1,10 @@
 <?php
 
-namespace Litepie\Repository\Eloquent;
+namespace Cms_Framework_Seed\Repository\Eloquent;
 
-use Litepie\Repository\Contracts\CriteriaInterface;
-use Litepie\Repository\Contracts\RepositoryCriteriaInterface;
-use Litepie\Repository\Contracts\RepositoryInterface;
+use Cms_Framework_Seed\Repository\Contracts\CriteriaInterface;
+use Cms_Framework_Seed\Repository\Contracts\RepositoryCriteriaInterface;
+use Cms_Framework_Seed\Repository\Contracts\RepositoryInterface;
 use Prettus\Repository\Eloquent\BaseRepository as PrettusRepository;
 
 /**

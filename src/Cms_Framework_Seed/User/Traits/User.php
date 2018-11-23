@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\User\Traits;
+namespace Cms_Framework_Seed\User\Traits;
 
 /**
  * Trait HasPermission.

@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Repository;
+namespace Cms_Framework_Seed\Repository;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -33,7 +33,7 @@ class RepositoryServiceProvider extends ServiceProvider
         // Merge configuration file
         $this->mergeConfigFrom(__DIR__.'/config.php', 'database');
 
-        $this->app->register('Litepie\Repository\Providers\EventServiceProvider');
+        $this->app->register('Cms_Framework_Seed\Repository\Providers\EventServiceProvider');
     }
 
     /**

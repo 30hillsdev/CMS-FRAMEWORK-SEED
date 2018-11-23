@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Roles\Traits;
+namespace Cms_Framework_Seed\Roles\Traits;
 
 use Illuminate\Support\Str;
 

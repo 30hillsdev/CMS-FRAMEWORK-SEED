@@ -3,7 +3,7 @@
     "description": "Database bundle for Cms_Framework_Seed",
     "keywords": ["cms_framework_seed", "database"],
     "license": "MIT",
-    "homepage": "https://github.com/Litepie/Database",
+    "homepage": "https://github.com/Cms_Framework_Seed/Database",
     "authors": [
         {
             "name": "30hills",
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": { 
-            "Litepie\\Database\\": "" 
+            "Cms_Framework_Seed\\Database\\": ""
         }
     }
 }

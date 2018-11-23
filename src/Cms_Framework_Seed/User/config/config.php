@@ -23,17 +23,17 @@ return [
 
     'policies' => [
         // Bind User policy
-        \App\User::class                 => \Litepie\User\Policies\UserPolicy::class,
-        \App\Client::class               => \Litepie\User\Policies\ClientPolicy::class,
+        \App\User::class                 => \Cms_Framework_Seed\User\Policies\UserPolicy::class,
+        \App\Client::class               => \Cms_Framework_Seed\User\Policies\ClientPolicy::class,
         // Bind Team policy
-        \Litepie\User\Models\Team::class => \Litepie\User\Policies\TeamPolicy::class,
+        \Cms_Framework_Seed\User\Models\Team::class => \Cms_Framework_Seed\User\Policies\TeamPolicy::class,
     ],
 
     'user'     => [
         'model' => [
             'model'         => \App\User::class,
             'table'         => 'users',
-            'presenter'     => \Litepie\User\Repositories\Presenter\UserPresenter::class,
+            'presenter'     => \Cms_Framework_Seed\User\Repositories\Presenter\UserPresenter::class,
             'hidden'        => [],
             'visible'       => [],
             'guarded'       => ['*'],
@@ -77,7 +77,7 @@ return [
         'model'      => [
             'model'         => \App\Client::class,
             'table'         => 'clients',
-            'presenter'     => \Litepie\User\Repositories\Presenter\ClientPresenter::class,
+            'presenter'     => \Cms_Framework_Seed\User\Repositories\Presenter\ClientPresenter::class,
             'hidden'        => [],
             'visible'       => [],
             'guarded'       => ['*'],
@@ -115,9 +115,9 @@ return [
 
     'team'     => [
         'model' => [
-            'model'         => \Litepie\User\Models\Team::class,
+            'model'         => \Cms_Framework_Seed\User\Models\Team::class,
             'table'         => 'teams',
-            'presenter'     => \Litepie\User\Repositories\Presenter\TeamPresenter::class,
+            'presenter'     => \Cms_Framework_Seed\User\Repositories\Presenter\TeamPresenter::class,
             'hidden'        => [],
             'visible'       => [],
             'guarded'       => ['*'],

@@ -1,12 +1,12 @@
 <?php
 
-namespace Litepie\Settings\Repositories\Presenter;
+namespace Cms_Framework_Seed\Settings\Repositories\Presenter;
 
 use League\Fractal\TransformerAbstract;
 
 class SettingTransformer extends TransformerAbstract
 {
-    public function transform(\Litepie\Settings\Models\Setting $setting)
+    public function transform(\Cms_Framework_Seed\Settings\Models\Setting $setting)
     {
         return [
             'id'                => $setting->getRouteKey(),

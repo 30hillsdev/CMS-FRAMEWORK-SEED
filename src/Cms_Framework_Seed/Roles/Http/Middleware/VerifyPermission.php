@@ -1,10 +1,10 @@
 <?php
 
-namespace Litepie\Roles\Http\Middleware;
+namespace Cms_Framework_Seed\Roles\Http\Middleware;
 
 use Closure;
 use Illuminate\Contracts\Auth\Guard;
-use Litepie\Roles\Exceptions\PermissionDeniedException;
+use Cms_Framework_Seed\Roles\Exceptions\PermissionDeniedException;
 
 class VerifyPermission
 {
@@ -32,7 +32,7 @@ class VerifyPermission
      * @param \Closure                 $next
      * @param int|string               $permission
      *
-     * @throws \Litepie\Roles\Exceptions\PermissionDeniedException
+     * @throws \Cms_Framework_Seed\Roles\Exceptions\PermissionDeniedException
      *
      * @return mixed
      */

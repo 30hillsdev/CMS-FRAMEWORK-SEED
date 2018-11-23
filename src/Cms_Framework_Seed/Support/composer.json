@@ -3,7 +3,7 @@
     "description": "Support bundle for Cms_Framework_Seed",
     "keywords": ["cms_framework_seed", "support"],
     "license": "MIT",
-    "homepage": "https://github.com/Litepie/Support",
+    "homepage": "https://github.com/Cms_Framework_Seed/Support",
     "authors": [
         {
             "name": "30hills",
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": { 
-            "Litepie\\Support\\": "" 
+            "Cms_Framework_Seed\\Support\\": ""
         }
     }
 }

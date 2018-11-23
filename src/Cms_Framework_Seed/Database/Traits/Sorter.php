@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Database\Traits;
+namespace Cms_Framework_Seed\Database\Traits;
 
 use Exception;
 

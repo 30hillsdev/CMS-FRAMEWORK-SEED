@@ -1,8 +1,8 @@
 <?php
 
-namespace Litepie\Activities\Test\Models;
+namespace Cms_Framework_Seed\Activities\Test\Models;
 
-use Litepie\Activities\Models\Activity;
+use Cms_Framework_Seed\Activities\Models\Activity;
 
 class CustomActivityModel extends Activity
 {

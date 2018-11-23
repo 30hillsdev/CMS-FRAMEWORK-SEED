@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Roles\Interfaces;
+namespace Cms_Framework_Seed\Roles\Interfaces;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -60,7 +60,7 @@ interface HasRoleAndPermission
     /**
      * Attach role to a user.
      *
-     * @param int|\Litepie\Roles\Models\Role $role
+     * @param int|\Cms_Framework_Seed\Roles\Models\Role $role
      *
      * @return null|bool
      */
@@ -69,7 +69,7 @@ interface HasRoleAndPermission
     /**
      * Detach role from a user.
      *
-     * @param int|\Litepie\Roles\Models\Role $role
+     * @param int|\Cms_Framework_Seed\Roles\Models\Role $role
      *
      * @return int
      */
@@ -162,7 +162,7 @@ interface HasRoleAndPermission
     /**
      * Attach permission to a user.
      *
-     * @param int|\Litepie\Roles\Models\Permission $permission
+     * @param int|\Cms_Framework_Seed\Roles\Models\Permission $permission
      *
      * @return null|bool
      */
@@ -171,7 +171,7 @@ interface HasRoleAndPermission
     /**
      * Detach permission from a user.
      *
-     * @param int|\Litepie\Roles\Models\Permission $permission
+     * @param int|\Cms_Framework_Seed\Roles\Models\Permission $permission
      *
      * @return int
      */

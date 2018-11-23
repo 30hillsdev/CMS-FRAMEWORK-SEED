@@ -19,9 +19,9 @@ return [
 
     'role'       => [
         'model' => [
-            'model'                 => \Litepie\Roles\Models\Role::class,
+            'model'                 => \Cms_Framework_Seed\Roles\Models\Role::class,
             'table'                 => 'roles',
-            'presenter'             => \Litepie\Roles\Repositories\Presenter\RoleItemPresenter::class,
+            'presenter'             => \Cms_Framework_Seed\Roles\Repositories\Presenter\RoleItemPresenter::class,
             'hidden'                => [],
             'visible'               => [],
             'guarded'               => ['*'],
@@ -51,9 +51,9 @@ return [
 
     'permission'       => [
         'model' => [
-            'model'                 => \Litepie\Roles\Models\Permission::class,
+            'model'                 => \Cms_Framework_Seed\Roles\Models\Permission::class,
             'table'                 => 'permissions',
-            'presenter'             => \Litepie\Roles\Repositories\Presenter\PermissionItemPresenter::class,
+            'presenter'             => \Cms_Framework_Seed\Roles\Repositories\Presenter\PermissionItemPresenter::class,
             'hidden'                => [],
             'visible'               => [],
             'guarded'               => ['*'],

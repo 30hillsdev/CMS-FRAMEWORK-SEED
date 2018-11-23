@@ -1,8 +1,8 @@
 <?php
 
-namespace Litepie\Roles\Repositories\Presenter;
+namespace Cms_Framework_Seed\Roles\Repositories\Presenter;
 
-use Litepie\Repository\Presenter\FractalPresenter;
+use Cms_Framework_Seed\Repository\Presenter\FractalPresenter;
 
 class RoleListPresenter extends FractalPresenter
 {

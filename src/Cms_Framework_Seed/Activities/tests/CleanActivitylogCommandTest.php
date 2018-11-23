@@ -1,10 +1,10 @@
 <?php
 
-namespace Litepie\Activities\Test;
+namespace Cms_Framework_Seed\Activities\Test;
 
 use Artisan;
 use Carbon\Carbon;
-use Litepie\Activities\Models\Activity;
+use Cms_Framework_Seed\Activities\Models\Activity;
 
 class CleanActivitylogCommandTest extends TestCase
 {

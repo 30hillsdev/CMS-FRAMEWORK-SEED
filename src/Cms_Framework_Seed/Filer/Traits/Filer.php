@@ -1,9 +1,9 @@
 <?php
 
-namespace Litepie\Filer\Traits;
+namespace Cms_Framework_Seed\Filer\Traits;
 
 use Filer as Uploader;
-use Litepie\Filer\Form\Forms;
+use Cms_Framework_Seed\Filer\Form\Forms;
 use Request;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
 use URL;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Repository\Events;
+namespace Cms_Framework_Seed\Repository\Events;
 
 /**
  * Class RepositoryEntityDeleted.

@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Settings\Interfaces;
+namespace Cms_Framework_Seed\Settings\Interfaces;
 
 interface SettingRepositoryInterface
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Litepie\Roles\Repositories\Criteria;
+namespace Cms_Framework_Seed\Roles\Repositories\Criteria;
 
-use Litepie\Repository\Contracts\CriteriaInterface;
-use Litepie\Repository\Contracts\RepositoryInterface;
+use Cms_Framework_Seed\Repository\Contracts\CriteriaInterface;
+use Cms_Framework_Seed\Repository\Contracts\RepositoryInterface;
 
 class PermissionResourceCriteria implements CriteriaInterface
 {

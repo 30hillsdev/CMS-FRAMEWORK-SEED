@@ -1,9 +1,9 @@
 <?php
 
-namespace Litepie\Install\Installers\Scripts;
+namespace Cms_Framework_Seed\Install\Installers\Scripts;
 
 use Illuminate\Console\Command;
-use Litepie\Install\Installers\SetupScript;
+use Cms_Framework_Seed\Install\Installers\SetupScript;
 
 class PackageSeeders implements SetupScript
 {

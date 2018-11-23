@@ -1,10 +1,10 @@
 <?php
 
-namespace Litepie\Roles\Http\Middleware;
+namespace Cms_Framework_Seed\Roles\Http\Middleware;
 
 use Closure;
 use Illuminate\Contracts\Auth\Guard;
-use Litepie\Roles\Exceptions\LevelDeniedException;
+use Cms_Framework_Seed\Roles\Exceptions\LevelDeniedException;
 
 class VerifyLevel
 {
@@ -32,7 +32,7 @@ class VerifyLevel
      * @param \Closure                 $next
      * @param int                      $level
      *
-     * @throws \Litepie\Roles\Exceptions\LevelDeniedException
+     * @throws \Cms_Framework_Seed\Roles\Exceptions\LevelDeniedException
      *
      * @return mixed
      */

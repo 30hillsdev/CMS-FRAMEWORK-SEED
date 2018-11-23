@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Repository\Traits;
+namespace Cms_Framework_Seed\Repository\Traits;
 
 use Illuminate\Support\Arr;
 use Prettus\Repository\Contracts\PresenterInterface;
@@ -16,7 +16,7 @@ trait PresentableTrait
     protected $presenter = null;
 
     /**
-     * @param \Litepie\Repository\Contracts\PresenterInterface $presenter
+     * @param \Cms_Framework_Seed\Repository\Contracts\PresenterInterface $presenter
      *
      * @return $this
      */

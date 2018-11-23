@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\User;
+namespace Cms_Framework_Seed\User;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -44,30 +44,30 @@ class UserServiceProvider extends ServiceProvider
 
         // Bind facade
         $this->app->bind('user', function ($app) {
-            return $this->app->make('Litepie\User\User');
+            return $this->app->make('Cms_Framework_Seed\User\User');
         });
 
         // Bind User to repository
         $this->app->bind(
-            'Litepie\User\Interfaces\UserRepositoryInterface',
-            \Litepie\User\Repositories\Eloquent\UserRepository::class
+            'Cms_Framework_Seed\User\Interfaces\UserRepositoryInterface',
+            \Cms_Framework_Seed\User\Repositories\Eloquent\UserRepository::class
         );
 
         // Bind User to repository
         $this->app->bind(
-            'Litepie\User\Interfaces\ClientRepositoryInterface',
-            \Litepie\User\Repositories\Eloquent\ClientRepository::class
+            'Cms_Framework_Seed\User\Interfaces\ClientRepositoryInterface',
+            \Cms_Framework_Seed\User\Repositories\Eloquent\ClientRepository::class
         );
 
         // Bind Team to repository
         $this->app->bind(
-            'Litepie\User\Interfaces\TeamRepositoryInterface',
-            \Litepie\User\Repositories\Eloquent\TeamRepository::class
+            'Cms_Framework_Seed\User\Interfaces\TeamRepositoryInterface',
+            \Cms_Framework_Seed\User\Repositories\Eloquent\TeamRepository::class
         );
 
-        $this->app->register(\Litepie\User\Providers\AuthServiceProvider::class);
-        $this->app->register(\Litepie\User\Providers\EventServiceProvider::class);
-        $this->app->register(\Litepie\User\Providers\RouteServiceProvider::class);
+        $this->app->register(\Cms_Framework_Seed\User\Providers\AuthServiceProvider::class);
+        $this->app->register(\Cms_Framework_Seed\User\Providers\EventServiceProvider::class);
+        $this->app->register(\Cms_Framework_Seed\User\Providers\RouteServiceProvider::class);
         $this->app->register(\Laravel\Socialite\SocialiteServiceProvider::class);
     }
 

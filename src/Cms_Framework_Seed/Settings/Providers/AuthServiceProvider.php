@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Settings\Providers;
+namespace Cms_Framework_Seed\Settings\Providers;
 
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
 
@@ -13,7 +13,7 @@ class AuthServiceProvider extends ServiceProvider
      */
     protected $policies = [
         // Bind Setting policy
-        'Litepie\Settings\Models\Setting' => \Litepie\Settings\Policies\SettingPolicy::class,
+        'Cms_Framework_Seed\Settings\Models\Setting' => \Cms_Framework_Seed\Settings\Policies\SettingPolicy::class,
     ];
 
     /**

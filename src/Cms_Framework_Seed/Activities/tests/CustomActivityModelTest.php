@@ -1,9 +1,9 @@
 <?php
 
-namespace Litepie\Activities\Test;
+namespace Cms_Framework_Seed\Activities\Test;
 
-use Litepie\Activities\Test\Models\CustomActivityModel;
-use Litepie\Activities\Test\Models\InvalidActivityModel;
+use Cms_Framework_Seed\Activities\Test\Models\CustomActivityModel;
+use Cms_Framework_Seed\Activities\Test\Models\InvalidActivityModel;
 use Spatie\Activitylog\Exceptions\InvalidConfiguration;
 
 class CustomActivityModelTest extends TestCase

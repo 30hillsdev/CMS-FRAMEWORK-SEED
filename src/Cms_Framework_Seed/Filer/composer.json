@@ -3,7 +3,7 @@
     "description": "Filer bundle for Cms_Framework_Seed",
     "keywords": ["cms_framework_seed", "filer"],
     "license": "MIT",
-    "homepage": "https://github.com/Litepie/Filer",
+    "homepage": "https://github.com/Cms_Framework_Seed/Filer",
     "authors": [
         {
             "name": "30hills",
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": { 
-            "Litepie\\Filer\\": "" 
+            "Cms_Framework_Seed\\Filer\\": ""
         }
     }
 }

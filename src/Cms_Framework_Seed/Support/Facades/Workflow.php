@@ -1,9 +1,9 @@
 <?php
 
-namespace Litepie\Support\Facades;
+namespace Cms_Framework_Seed\Support\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Litepie\Contracts\Workflow\Workflow as WorkflowContract;
+use Cms_Framework_Seed\Contracts\Workflow\Workflow as WorkflowContract;
 
 class Workflow extends Facade
 {

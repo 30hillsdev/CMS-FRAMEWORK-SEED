@@ -1,12 +1,12 @@
 <?php
 
-namespace Litepie\Activities\Test;
+namespace Cms_Framework_Seed\Activities\Test;
 
 use Auth;
 use Illuminate\Support\Collection;
-use Litepie\Activities\Models\Activity;
-use Litepie\Activities\Test\Models\Article;
-use Litepie\Activities\Test\Models\User;
+use Cms_Framework_Seed\Activities\Models\Activity;
+use Cms_Framework_Seed\Activities\Test\Models\Article;
+use Cms_Framework_Seed\Activities\Test\Models\User;
 use Spatie\Activitylog\Exceptions\CouldNotLogActivity;
 
 class ActivityloggerTest extends TestCase

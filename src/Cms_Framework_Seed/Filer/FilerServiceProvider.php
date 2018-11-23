@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Filer;
+namespace Cms_Framework_Seed\Filer;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -21,7 +21,7 @@ class FilerServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->loadViewsFrom(__DIR__.'/views', 'filer');
-        $this->app->register('\Litepie\Filer\ImageServiceProvider');
+        $this->app->register('\Cms_Framework_Seed\Filer\ImageServiceProvider');
         $this->publishResources();
     }
 
@@ -35,10 +35,10 @@ class FilerServiceProvider extends ServiceProvider
         $this->mergeConfigFrom(__DIR__.'/config.php', 'filer');
 
         $this->app->bind('filer', function ($app) {
-            return new \Litepie\Filer\Filer();
+            return new \Cms_Framework_Seed\Filer\Filer();
         });
 
-        $this->app->register(\Litepie\Filer\Providers\RouteServiceProvider::class);
+        $this->app->register(\Cms_Framework_Seed\Filer\Providers\RouteServiceProvider::class);
     }
 
     /**

@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Repository\Providers;
+namespace Cms_Framework_Seed\Repository\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -12,14 +12,14 @@ class EventServiceProvider extends ServiceProvider
      * @var array
      */
     protected $listen = [
-        'Litepie\Repository\Events\RepositoryEntityCreated' => [
-            'Litepie\Repository\Listeners\CleanCacheRepository',
+        'Cms_Framework_Seed\Repository\Events\RepositoryEntityCreated' => [
+            'Cms_Framework_Seed\Repository\Listeners\CleanCacheRepository',
         ],
-        'Litepie\Repository\Events\RepositoryEntityUpdated' => [
-            'Litepie\Repository\Listeners\CleanCacheRepository',
+        'Cms_Framework_Seed\Repository\Events\RepositoryEntityUpdated' => [
+            'Cms_Framework_Seed\Repository\Listeners\CleanCacheRepository',
         ],
-        'Litepie\Repository\Events\RepositoryEntityDeleted' => [
-            'Litepie\Repository\Listeners\CleanCacheRepository',
+        'Cms_Framework_Seed\Repository\Events\RepositoryEntityDeleted' => [
+            'Cms_Framework_Seed\Repository\Listeners\CleanCacheRepository',
         ],
     ];
 

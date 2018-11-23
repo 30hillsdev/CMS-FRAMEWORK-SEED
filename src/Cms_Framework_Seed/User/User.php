@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\User;
+namespace Cms_Framework_Seed\User;
 
 /*
  *
@@ -15,9 +15,9 @@ use Form;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Support\Facades\Auth;
-use Litepie\Roles\Interfaces\PermissionRepositoryInterface;
-use Litepie\Roles\Interfaces\RoleRepositoryInterface;
-use Litepie\User\Interfaces\UserRepositoryInterface;
+use Cms_Framework_Seed\Roles\Interfaces\PermissionRepositoryInterface;
+use Cms_Framework_Seed\Roles\Interfaces\RoleRepositoryInterface;
+use Cms_Framework_Seed\User\Interfaces\UserRepositoryInterface;
 
 /**
  * User wrapper class.
@@ -47,9 +47,9 @@ class User
     /**
      *  Initialize User.
      *
-     * @param \Litepie\Contracts\User\User                 $user
-     * @param \Litepie\Contracts\User\Role                 $role
-     * @param \Litepie\Contracts\User\PermissionRepository $permission
+     * @param \Cms_Framework_Seed\Contracts\User\User                 $user
+     * @param \Cms_Framework_Seed\Contracts\User\Role                 $role
+     * @param \Cms_Framework_Seed\Contracts\User\PermissionRepository $permission
      */
     public function __construct(
         Application                   $app,
@@ -70,7 +70,7 @@ class User
      * @param array $credentials
      * @param bool  $activate
      *
-     * @return \Litepie\Contracts\User\User
+     * @return \Cms_Framework_Seed\Contracts\User\User
      */
     public function create(array $credentials, $active = false)
     {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Litepie\Roles\Providers;
+namespace Cms_Framework_Seed\Roles\Providers;
 
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
-use Litepie\Roles\Models\Roles;
+use Cms_Framework_Seed\Roles\Models\Roles;
 use Request;
 use Route;
 
@@ -31,7 +31,7 @@ class RouteServiceProvider extends ServiceProvider
 
         if (Request::is('*/roles/role/*')) {
             Route::bind('role', function ($role) {
-                $rolerepo = $this->app->make('Litepie\Roles\Interfaces\RoleRepositoryInterface');
+                $rolerepo = $this->app->make('Cms_Framework_Seed\Roles\Interfaces\RoleRepositoryInterface');
 
                 return $rolerepo->findorNew($role);
             });
@@ -39,7 +39,7 @@ class RouteServiceProvider extends ServiceProvider
 
         if (Request::is('*/roles/permission/*')) {
             Route::bind('permission', function ($permission) {
-                $permissionrepo = $this->app->make('Litepie\Roles\Interfaces\PermissionRepositoryInterface');
+                $permissionrepo = $this->app->make('Cms_Framework_Seed\Roles\Interfaces\PermissionRepositoryInterface');
 
                 return $permissionrepo->findorNew($permission);
             });

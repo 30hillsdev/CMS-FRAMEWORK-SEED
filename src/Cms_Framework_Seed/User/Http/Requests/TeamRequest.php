@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\User\Http\Requests;
+namespace Cms_Framework_Seed\User\Http\Requests;
 
 use App\Http\Requests\Request as FormRequest;
 

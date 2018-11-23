@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Roles\Traits;
+namespace Cms_Framework_Seed\Roles\Traits;
 
 trait CheckRoleAndPermission
 {
@@ -18,7 +18,7 @@ trait CheckRoleAndPermission
      */
     public function setRole($role)
     {
-        $this->role = app('Litepie\Roles\Interfaces\RoleRepositoryInterface')->findRoleBySlug($role);
+        $this->role = app('Cms_Framework_Seed\Roles\Interfaces\RoleRepositoryInterface')->findRoleBySlug($role);
     }
 
     /**

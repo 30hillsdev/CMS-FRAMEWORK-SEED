@@ -1,12 +1,12 @@
 <?php
 
-namespace Litepie\User\Http\Controllers;
+namespace Cms_Framework_Seed\User\Http\Controllers;
 
 use App\Http\Controllers\ResourceController as BaseController;
 use Form;
-use Litepie\User\Http\Requests\TeamRequest;
-use Litepie\User\Interfaces\TeamRepositoryInterface;
-use Litepie\User\Models\Team;
+use Cms_Framework_Seed\User\Http\Requests\TeamRequest;
+use Cms_Framework_Seed\User\Interfaces\TeamRepositoryInterface;
+use Cms_Framework_Seed\User\Models\Team;
 
 /**
  * Admin web controller class.
@@ -54,8 +54,8 @@ class TeamResourceController extends BaseController
         $pageLimit = $request->input('pageLimit');
 
         $teams = $this->repository
-            ->pushCriteria(app('Litepie\Repository\Criteria\RequestCriteria'))
-            ->setPresenter('\\Litepie\\User\\Repositories\\Presenter\\TeamPresenter')
+            ->pushCriteria(app('Cms_Framework_Seed\Repository\Criteria\RequestCriteria'))
+            ->setPresenter('\\Cms_Framework_Seed\\User\\Repositories\\Presenter\\TeamPresenter')
             ->scopeQuery(function ($query) {
                 return $query->orderBy('id', 'DESC');
             })->paginate($pageLimit);

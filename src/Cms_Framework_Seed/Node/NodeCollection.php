@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Node;
+namespace Cms_Framework_Seed\Node;
 
 use Illuminate\Database\Eloquent\Collection as CollectionBase;
 use Request;

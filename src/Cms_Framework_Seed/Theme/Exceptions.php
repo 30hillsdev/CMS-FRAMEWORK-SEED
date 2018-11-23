@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Theme;
+namespace Cms_Framework_Seed\Theme;
 
 class UnknownThemeException extends \UnexpectedValueException
 {

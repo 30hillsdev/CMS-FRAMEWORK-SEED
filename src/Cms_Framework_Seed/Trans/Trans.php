@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Trans;
+namespace Cms_Framework_Seed\Trans;
 
 use Mcamara\LaravelLocalization\Exceptions\SupportedLocalesNotDefined;
 use Mcamara\LaravelLocalization\LaravelLocalization;

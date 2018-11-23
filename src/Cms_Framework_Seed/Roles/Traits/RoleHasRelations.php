@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Roles\Traits;
+namespace Cms_Framework_Seed\Roles\Traits;
 
 trait RoleHasRelations
 {
@@ -27,7 +27,7 @@ trait RoleHasRelations
     /**
      * Attach permission to a role.
      *
-     * @param int|\Litepie\Roles\Models\Permission $permission
+     * @param int|\Cms_Framework_Seed\Roles\Models\Permission $permission
      *
      * @return int|bool
      */
@@ -39,7 +39,7 @@ trait RoleHasRelations
     /**
      * Detach permission from a role.
      *
-     * @param int|\Litepie\Roles\Models\Permission $permission
+     * @param int|\Cms_Framework_Seed\Roles\Models\Permission $permission
      *
      * @return int
      */

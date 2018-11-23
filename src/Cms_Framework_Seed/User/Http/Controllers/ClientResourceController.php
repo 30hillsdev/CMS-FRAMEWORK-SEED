@@ -1,12 +1,12 @@
 <?php
 
-namespace Litepie\User\Http\Controllers;
+namespace Cms_Framework_Seed\User\Http\Controllers;
 
 use App\Http\Controllers\ResourceController as BaseController;
 use Form;
-use Litepie\User\Http\Requests\ClientRequest;
-use Litepie\User\Interfaces\ClientRepositoryInterface;
-use Litepie\User\Models\Client;
+use Cms_Framework_Seed\User\Http\Requests\ClientRequest;
+use Cms_Framework_Seed\User\Interfaces\ClientRepositoryInterface;
+use Cms_Framework_Seed\User\Models\Client;
 
 /**
  * Resource controller class for client.
@@ -28,8 +28,8 @@ class ClientResourceController extends BaseController
         parent::__construct();
         $this->repository = $client;
         $this->repository
-            ->pushCriteria(\Litepie\Repository\Criteria\RequestCriteria::class)
-            ->pushCriteria(\Litepie\User\Repositories\Criteria\ClientResourceCriteria::class);
+            ->pushCriteria(\Cms_Framework_Seed\Repository\Criteria\RequestCriteria::class)
+            ->pushCriteria(\Cms_Framework_Seed\User\Repositories\Criteria\ClientResourceCriteria::class);
     }
 
     /**
@@ -45,7 +45,7 @@ class ClientResourceController extends BaseController
             $function = camel_case('get-'.$view);
 
             return $this->repository
-                ->setPresenter(\Litepie\User\Repositories\Presenter\ClientPresenter::class)
+                ->setPresenter(\Cms_Framework_Seed\User\Repositories\Presenter\ClientPresenter::class)
                 ->$function();
         }
 

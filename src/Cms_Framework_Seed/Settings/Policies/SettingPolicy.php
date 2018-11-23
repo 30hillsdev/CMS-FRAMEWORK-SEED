@@ -1,9 +1,9 @@
 <?php
 
-namespace Litepie\Settings\Policies;
+namespace Cms_Framework_Seed\Settings\Policies;
 
-use Litepie\Settings\Models\Setting;
-use Litepie\User\Contracts\UserPolicy;
+use Cms_Framework_Seed\Settings\Models\Setting;
+use Cms_Framework_Seed\User\Contracts\UserPolicy;
 
 class SettingPolicy
 {

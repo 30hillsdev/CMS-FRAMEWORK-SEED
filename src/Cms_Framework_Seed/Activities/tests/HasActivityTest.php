@@ -1,11 +1,11 @@
 <?php
 
-namespace Litepie\Activities\Test;
+namespace Cms_Framework_Seed\Activities\Test;
 
 use Illuminate\Database\Eloquent\SoftDeletes;
-use Litepie\Activities\Models\Activity;
-use Litepie\Activities\Test\Models\User;
-use Litepie\Activities\Traits\HasActivity;
+use Cms_Framework_Seed\Activities\Models\Activity;
+use Cms_Framework_Seed\Activities\Test\Models\User;
+use Cms_Framework_Seed\Activities\Traits\HasActivity;
 
 class HasActivityTest extends TestCase
 {

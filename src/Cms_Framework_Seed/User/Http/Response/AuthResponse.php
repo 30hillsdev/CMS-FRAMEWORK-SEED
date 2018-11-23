@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\User\Http\Response;
+namespace Cms_Framework_Seed\User\Http\Response;
 
 use App\Http\Response\Response as Response;
 

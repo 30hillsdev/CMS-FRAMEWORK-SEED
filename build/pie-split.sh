@@ -3,18 +3,18 @@
 #
 
 ./git-subsplit.sh init git@github.com:lavalite/framework.git
-./git-subsplit.sh publish --no-tags src/Litepie/Activities:git@github.com:Litepie/Activities.git
-./git-subsplit.sh publish --no-tags src/Litepie/Database:git@github.com:Litepie/database.git
-./git-subsplit.sh publish --no-tags src/Litepie/Filer:git@github.com:Litepie/filer.git
-./git-subsplit.sh publish --no-tags src/Litepie/Form:git@github.com:Litepie/form.git
-./git-subsplit.sh publish --no-tags src/Litepie/Hashids:git@github.com:Litepie/hashids.git
-./git-subsplit.sh publish --no-tags src/Litepie/Menu:git@github.com:Litepie/menu.git
-./git-subsplit.sh publish --no-tags src/Litepie/Node:git@github.com:Litepie/node.git
-./git-subsplit.sh publish --no-tags src/Litepie/Repository:git@github.com:Litepie/repository.git
-./git-subsplit.sh publish --no-tags src/Litepie/Roles:git@github.com:Litepie/roles.git
-./git-subsplit.sh publish --no-tags src/Litepie/Settings:git@github.com:Litepie/settings.git
-./git-subsplit.sh publish --no-tags src/Litepie/Team:git@github.com:Litepie/team.git
-./git-subsplit.sh publish --no-tags src/Litepie/Theme:git@github.com:Litepie/theme.git
-./git-subsplit.sh publish --no-tags src/Litepie/Trans:git@github.com:Litepie/trans.git
-./git-subsplit.sh publish --no-tags src/Litepie/User:git@github.com:Litepie/user.git
+./git-subsplit.sh publish --no-tags src/Cms_Framework_Seed/Activities:git@github.com:Cms_Framework_Seed/Activities.git
+./git-subsplit.sh publish --no-tags src/Cms_Framework_Seed/Database:git@github.com:Cms_Framework_Seed/database.git
+./git-subsplit.sh publish --no-tags src/Cms_Framework_Seed/Filer:git@github.com:Cms_Framework_Seed/filer.git
+./git-subsplit.sh publish --no-tags src/Cms_Framework_Seed/Form:git@github.com:Cms_Framework_Seed/form.git
+./git-subsplit.sh publish --no-tags src/Cms_Framework_Seed/Hashids:git@github.com:Cms_Framework_Seed/hashids.git
+./git-subsplit.sh publish --no-tags src/Cms_Framework_Seed/Menu:git@github.com:Cms_Framework_Seed/menu.git
+./git-subsplit.sh publish --no-tags src/Cms_Framework_Seed/Node:git@github.com:Cms_Framework_Seed/node.git
+./git-subsplit.sh publish --no-tags src/Cms_Framework_Seed/Repository:git@github.com:Cms_Framework_Seed/repository.git
+./git-subsplit.sh publish --no-tags src/Cms_Framework_Seed/Roles:git@github.com:Cms_Framework_Seed/roles.git
+./git-subsplit.sh publish --no-tags src/Cms_Framework_Seed/Settings:git@github.com:Cms_Framework_Seed/settings.git
+./git-subsplit.sh publish --no-tags src/Cms_Framework_Seed/Team:git@github.com:Cms_Framework_Seed/team.git
+./git-subsplit.sh publish --no-tags src/Cms_Framework_Seed/Theme:git@github.com:Cms_Framework_Seed/theme.git
+./git-subsplit.sh publish --no-tags src/Cms_Framework_Seed/Trans:git@github.com:Cms_Framework_Seed/trans.git
+./git-subsplit.sh publish --no-tags src/Cms_Framework_Seed/User:git@github.com:Cms_Framework_Seed/user.git
 rm -rf .subsplit/

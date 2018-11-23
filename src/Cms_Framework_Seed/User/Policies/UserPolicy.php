@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\User\Policies;
+namespace Cms_Framework_Seed\User\Policies;
 
 use App\User;
 use App\User as UserModal;

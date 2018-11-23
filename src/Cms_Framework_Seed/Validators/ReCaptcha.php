@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Validators;
+namespace Cms_Framework_Seed\Validators;
 
 use GuzzleHttp\Client;
 

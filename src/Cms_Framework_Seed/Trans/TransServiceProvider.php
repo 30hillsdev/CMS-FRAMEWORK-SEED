@@ -1,6 +1,6 @@
 <?php
 
-namespace Litepie\Trans;
+namespace Cms_Framework_Seed\Trans;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -42,7 +42,7 @@ class TransServiceProvider extends ServiceProvider
         $this->mergeConfigFrom(__DIR__.'/config.php', 'trans');
 
         $this->app->bind('trans', function ($app) {
-            return $this->app->make('\Litepie\Trans\Trans');
+            return $this->app->make('\Cms_Framework_Seed\Trans\Trans');
         });
     }
 }
